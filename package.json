@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "Starter package for fullstack app",
+  "main": "index.js",
+  "scripts": {
+    "start:frontend": "cd frontend && npm run start",
+    "start:backend": "cd backend && npm run dev",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:all": "npm run install:frontend && npm run install:backend",
+    "build:backend": "cd backend && npm run build",
+    "docker": "docker-compose -f docker-compose.yml up --build"
+  },
+  "keywords": [
+    "starter",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "author": "AleksandrShulha",
+  "license": "ISC"
+}

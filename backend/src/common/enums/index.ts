@@ -10,6 +10,7 @@ const ENV = {
 
 enum Api {
   BASE = '/',
+  IMAGE_EDITOR = '/image/edit',
 }
 
 export { ENV, Api }
